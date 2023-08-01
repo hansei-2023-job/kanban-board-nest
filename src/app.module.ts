@@ -9,7 +9,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb+srv://selectjun:ZRTVlwmm98tpAbbt@cluster0.7mk8tmp.mongodb.net/kanban-board?retryWrites=true&w=majority',
+      'mongodb+srv://ggos3:jjiZK5PeFGyysS7c@cluster0.isgm2hw.mongodb.net/?retryWrites=true&w=majority',
     ),
     KanbanBoardModule,
     UserModule,
